@@ -1,0 +1,43 @@
+{
+  "name": "@jackmoody11/edgar",
+  "version": "0.1.0",
+  "description": "Easily retrieve financials from SEC EDGAR database.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "onchange 'lib/**/*.ts' -- npm run build",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackmoody11/edgar.git"
+  },
+  "keywords": [
+    "SEC",
+    "EDGAR",
+    "financials",
+    "reporting"
+  ],
+  "author": {
+    "name": "Jack Moody",
+    "url": "https://jack-moody.com"
+  },
+  "bugs": {
+    "url": "https://github.com/jackmoody11/edgar/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/jest": "^25.2.1",
+    "babel-jest": "^25.4.0",
+    "jest": "^25.4.0",
+    "ts-jest": "^25.4.0",
+    "typescript": "^3.8.3"
+  }
+}
